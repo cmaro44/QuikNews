@@ -22,7 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Results:"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="25dp"/>
 
         <LinearLayout
             android:id="@+id/articleList"
