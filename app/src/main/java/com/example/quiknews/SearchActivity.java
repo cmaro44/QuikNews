@@ -2,9 +2,11 @@ package com.example.quiknews;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 
 public class SearchActivity extends AppCompatActivity {
@@ -17,7 +19,11 @@ public class SearchActivity extends AppCompatActivity {
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.println("this button simply creates an intent that contains the string of the text in the search bar and launches ResultsActivity");
+                Intent intent = new Intent(SearchActivity.this, ResultsActivity.class);
+                EditText searchBar = (EditText) findViewById(R.id.searchBar);
+                String search = searchBar.getText().toString();
+                intent.putExtra("search", search);
+                startActivity(intent);
             }
         });
 
