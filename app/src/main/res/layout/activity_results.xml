@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultsActivity">
+    tools:context=".ResultsActivity"
+    android:background="#696969">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,13 +16,14 @@
             android:id="@+id/backButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back To Search" />
+            android:text="Back To Search"/>
 
         <TextView
             android:id="@+id/resultsHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Results:"
+            android:textColor="#FFFFFF"
             android:textAlignment="center"
             android:textSize="25dp"/>
 
