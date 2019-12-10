@@ -15,4 +15,56 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Visit Site" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/visitButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Site" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/visitButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Site" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/visitButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Site" />
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/visitButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Site" />
 </LinearLayout>
